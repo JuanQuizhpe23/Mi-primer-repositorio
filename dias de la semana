@@ -1,1 +1,22 @@
-
+algoritmo dias de la semana{}
+Inicio  
+int num;
+escribe " un numero del 1-7"
+leer num;
+segun numero hacer: 
+1:
+ Escribir "lunes"
+2:
+ Escribir "martes"
+3:
+ Escribir "miercoles"
+4:
+ Escribir "jueves"
+5:
+ Escribir "viernes"
+6:
+ Escribir "sabado"
+7:
+ Escribir "domingo"
+fin_algoritmo{}
+fin
