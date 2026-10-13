@@ -1,6 +1,6 @@
 algoritmo calcularareatriangulo{}
 Inicio
-Definir base, altura, area 
+Definir base, altura, area como real
 ecribir " ingrese la base del triangulo"
 leer base;
 ecribir " ingrese la altura del triangulo"
