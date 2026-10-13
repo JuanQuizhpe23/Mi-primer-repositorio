@@ -1,0 +1,11 @@
+algoritmo calculararearectangulo{}
+Inicio
+Definir largo,ancho,area como real
+escribir "ingrese el largo del rectangulo"
+leer rectangulo;
+escribir "ingrese el anchoo del rectangulo"
+leer ancho;
+area <- largo * ancho
+escribir "el area del rectangulo es: ", area
+fin_algoritmo
+fin
