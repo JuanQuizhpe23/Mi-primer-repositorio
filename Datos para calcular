@@ -1,0 +1,20 @@
+algoritmo Datosparacalcular{}
+Inicio  
+definir real a,b,c,d
+definir real suma,producto,media
+escribir "ingrese el primer numero"
+leer a;
+escribir "ingrese el segundo numero"
+leer b;
+escribir "ingrese el tercer numero"
+leer c;
+escribir "ingrese el cuarto numero"
+leer d;
+suma <- a + b + c + d
+producto <- a * b * c * d
+media <- suma / 4
+escribir "la suma es: ", suma
+escribir "el producto es: ", producto
+escribir "la media es: ", media
+fin_algoritmo
+fin
