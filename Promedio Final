@@ -1,0 +1,36 @@
+Algoritmo Prom_fin()
+Inicio }
+//Declaraciones
+Definir par-1, par-2, par-3, prom-fin
+//Cuerpo
+Ingrese "Escriba un numero del (1-10)"
+Leer prom-1
+mientras < 0 nota 1 > 10 hacer
+Escribir "nota ingresada invalida, debe ser entre 0 y 10"
+Escribir "ingrese un numero valido, en el rango 0 y 10"
+Leer prom-1
+Fin-mientras
+//Calcular prom-2
+Ingrese "Escriba un numero del (1-10)"
+Leer prom-2
+mientras < 0 nota 2 > 10 hacer
+Escribir "nota ingresada invalida, debe ser entre 0 y 10"
+Escribir "ingrese un numero valido, en el rango 0 y 10"
+Leer prom-2
+Fin-mientras
+//Calcular prom-3
+Ingrese "Escriba un numero del (1-10)"
+Leer prom-3
+mientras < 0 nota 3 > 10 hacer
+Escribir "nota ingresada invalida, debe ser entre 0 y 10"
+Escribir "ingrese un numero valido, en el rango 0 y 10"
+Leer prom-3
+//Calcular prom-fin
+prom-fin <- (par-1 * 0.3) (par-2 * 0.3) (par-3 * 0.4) / 3
+//Definir si aprobo o no
+Si prom-fin >= 7 entonces
+Escribir "Usted esta aprobado"
+Si-no
+Escribir "Usted esta reprobado"
+FinSi
+Fin-algoritmo
