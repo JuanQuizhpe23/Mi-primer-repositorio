@@ -1,0 +1,22 @@
+Algoritmo Coop_Loja
+Inicio
+    //Declaracion
+    Definir mont_pres, n_trim, porc_abon, mont_tot, rest como entero
+    Definir tas_int, tos_int como real
+    //Cuerpo
+    Ingrese "el monto del prestamo es"
+    Leer mont_pres
+    Ingrese "la tasa de interes trimestral"
+    Leer tas_trim
+    Ingrese "El numero de trimestres"
+    Leer n_trim
+    Ingrese "El porcentaje del abono extraordinario"
+    Leer porc_abon
+    //Calcular monto total
+    mont_tot <- mont_pres * (1 + tas_int)^n_trim
+    val_abon <- mont_tot * (porc_abon / 100)
+    rest <- val_abon - mont_tot
+    Ingrese "El valor del monto es:", mont_tot
+    Ingrese "El valor del abono es:", val_abon
+    Ingrese "El monto a pagar es:", rest
+Fin-algoritmo
