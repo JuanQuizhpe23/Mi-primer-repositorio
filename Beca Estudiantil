@@ -1,0 +1,22 @@
+Algoritmo bec_est
+Inicio
+Definir prom como real
+Definir prom_mat_rep, beca como entero
+Definir est_prim como boolean
+//cuerpo
+Ingrese "El promedio del estudiante es"
+Leer prom
+Ingrese "El estudiante pertenece a primer ciclo, T/F"
+Leer est_prim
+//calcular los promedios
+Si prom >= 9.0, reprobadas = 0 y primer ciclo = T
+beca <- 100%
+Si no prom >= 8.0 y reprobadas <= 1
+beca <- 70%
+Si prom >= 7.0 y reprobadas <= 1
+beca <- 40%
+Si no
+beca <- 0%
+FinSi
+Ingrese "El porcentaje de beca es:", beca
+Fin
