@@ -1,0 +1,19 @@
+algoritmo MenorTres
+Definir a,b,c,menor Como Real
+Escribir "Ingrese el primer numero:"
+Leer a
+Escribir "Ingrese el segundo numero:"
+Leer b
+Escribir "Ingrese el tercer numero:"
+Leer c
+Si a<=b Y a<=c Entonces
+menor <- a
+SiNo
+Si b<=a Y b<=c Entonces
+menor <- b
+SiNo
+menor <- c
+FinSi
+FinSi
+Escribir "El numero menor es: ",menor
+Fin
