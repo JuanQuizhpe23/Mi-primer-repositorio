@@ -1,0 +1,32 @@
+algoritmo Cuadrante
+Definir x,y Como Real
+Escribir "Ingrese la coordenada X:"
+Leer x
+Escribir "Ingrese la coordenada Y:"
+Leer y
+Si x>0 Y y>0 Entonces
+Escribir "Primer cuadrante"
+SiNo
+Si x<0 Y y>0 Entonces
+Escribir "Segundo cuadrante"
+SiNo
+Si x<0 Y y<0 Entonces
+Escribir "Tercer cuadrante"
+SiNo
+Si x>0 Y y<0 Entonces
+Escribir "Cuarto cuadrante"
+SiNo
+Si x=0 Y y=0 Entonces
+Escribir "Origen"
+SiNo
+Si x=0 Entonces
+Escribir "Sobre el eje Y"
+SiNo
+Escribir "Sobre el eje X"
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+Fin
