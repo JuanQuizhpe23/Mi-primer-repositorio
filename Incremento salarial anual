@@ -1,0 +1,10 @@
+algoritmo IncrementoSalario
+Definir salario Como Real
+Definir anio Como Entero
+salario <- 1500
+Para anio <- 1 Hasta 6 Hacer
+salario <- salario*1.10
+Escribir "Salario del anio ",anio,": ",salario
+FinPara
+Escribir "Salario final: $",salario
+Fin
