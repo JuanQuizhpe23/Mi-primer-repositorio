@@ -1,0 +1,26 @@
+algoritmo TransporteLoja
+Definir opcion Como Entero
+Escribir "MEDIOS DE TRANSPORTE"
+Escribir "1. Bus urbano"
+Escribir "2. Taxi"
+Escribir "3. Bicicleta"
+Escribir "4. Caminar"
+Escribir "Seleccione su transporte:"
+Leer opcion
+Segun opcion Hacer
+1:
+Escribir "Bus urbano: 25 minutos"
+Escribir "Transporte economico"
+2:
+Escribir "Taxi: 12 minutos"
+Escribir "Transporte rapido"
+3:
+Escribir "Bicicleta: 20 minutos"
+Escribir "Transporte saludable"
+4:
+Escribir "Caminar: 60 minutos"
+Escribir "Transporte saludable"
+De Otro Modo:
+Escribir "Opcion incorrecta"
+FinSegun
+Fin
