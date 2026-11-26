@@ -1,0 +1,13 @@
+algoritmo AhorroMensual
+Definir n,i Como Entero
+Definir aporte,saldo Como Real
+saldo <- 0
+Escribir "Ingrese el numero de meses:"
+Leer n
+Para i <- 1 Hasta n Hacer
+Escribir "Ingrese el aporte del mes ",i
+Leer aporte
+saldo <- (saldo+aporte)*1.008
+FinPara
+Escribir "El saldo final es: $",saldo
+Fin
