@@ -1,0 +1,18 @@
+algoritmo PromedioHastaTerminar
+Definir nota,suma,promedio Como Real
+Definir contador Como Entero
+Definir respuesta Como Caracter
+suma <- 0
+contador <- 0
+Repetir
+Escribir "Ingrese una nota:"
+Leer nota
+suma <- suma+nota
+contador <- contador+1
+Escribir "Desea ingresar otra nota? S/N:"
+Leer respuesta
+Hasta Que respuesta="N" O respuesta="n"
+promedio <- suma/contador
+Escribir "Cantidad de notas: ",contador
+Escribir "Promedio final: ",promedio
+Fin
