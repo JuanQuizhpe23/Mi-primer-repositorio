@@ -1,0 +1,11 @@
+aalgoritmo TrianguloRectangulo
+Definir a,b,hipotenusa,area Como Real
+Escribir "Ingrese el primer cateto:"
+Leer a
+Escribir "Ingrese el segundo cateto:"
+Leer b
+hipotenusa <- RC(a^2+b^2)
+area <- (a*b)/2
+Escribir "La hipotenusa es: ",hipotenusa
+Escribir "El area es: ",area
+Fin
