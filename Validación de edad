@@ -1,0 +1,12 @@
+algoritmo ValidarEdad
+Definir edad Como Entero
+Repetir
+Escribir "Ingrese una edad entre 1 y 100:"
+Leer edad
+Si edad<1 O edad>100 Entonces
+Escribir "Edad incorrecta, vuelva a ingresar"
+FinSi
+Hasta Que edad>=1 Y edad<=100
+Escribir "Edad registrada correctamente"
+Escribir "La edad ingresada es: ",edad
+Fin
