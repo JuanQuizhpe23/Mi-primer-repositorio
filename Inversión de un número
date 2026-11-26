@@ -1,0 +1,12 @@
+algoritmo InvertirNumero
+Definir num,digito,invertido Como Entero
+invertido <- 0
+Escribir "Ingrese un numero entero positivo:"
+Leer num
+Mientras num>0 Hacer
+digito <- num MOD 10
+invertido <- invertido*10+digito
+num <- Trunc(num/10)
+FinMientras
+Escribir "El numero invertido es: ",invertido
+Fin
