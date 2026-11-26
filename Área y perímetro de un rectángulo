@@ -1,0 +1,11 @@
+algoritmo AreaPerimetro
+Definir largo,ancho,area,perimetro Como Real
+Escribir "Ingrese el largo:"
+Leer largo
+Escribir "Ingrese el ancho:"
+Leer ancho
+area <- largo*ancho
+perimetro <- 2*(largo+ancho)
+Escribir "El area es: ",area
+Escribir "El perimetro es: ",perimetro
+Fin
