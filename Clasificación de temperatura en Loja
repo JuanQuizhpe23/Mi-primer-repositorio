@@ -1,0 +1,17 @@
+algoritmo Temperatura
+Definir temperatura Como Real
+Escribir "Ingrese la temperatura:"
+Leer temperatura
+Si temperatura<15 Entonces
+Escribir "Clima frio"
+SiNo
+Si temperatura<=25 Entonces
+Escribir "Clima templado"
+SiNo
+Escribir "Clima calido"
+Si temperatura>30 Entonces
+Escribir "ALERTA: CALOR EXTREMO"
+FinSi
+FinSi
+FinSi
+Fin
