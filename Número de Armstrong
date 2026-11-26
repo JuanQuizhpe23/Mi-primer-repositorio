@@ -1,0 +1,17 @@
+algoritmo NumeroArmstrong
+Definir num,aux,digito,suma Como Entero
+Escribir "Ingrese un numero de tres digitos:"
+Leer num
+aux <- num
+suma <- 0
+Mientras aux>0 Hacer
+digito <- aux MOD 10
+suma <- suma+digito^3
+aux <- Trunc(aux/10)
+FinMientras
+Si num>=100 Y num<=999 Y suma=num Entonces
+Escribir "Es un numero Armstrong"
+SiNo
+Escribir "No es un numero Armstrong"
+FinSi
+Fin
