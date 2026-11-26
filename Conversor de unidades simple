@@ -1,0 +1,32 @@
+algoritmo ConversorUnidades
+Definir opcion Como Entero
+Definir valor,resultado Como Real
+Escribir "MENU DE CONVERSION"
+Escribir "1. Kilometros a metros"
+Escribir "2. Metros a centimetros"
+Escribir "3. Horas a minutos"
+Escribir "4. Salir"
+Escribir "Seleccione una opcion:"
+Leer opcion
+Segun opcion Hacer
+1:
+Escribir "Ingrese los kilometros:"
+Leer valor
+resultado <- valor*1000
+Escribir "Metros: ",resultado
+2:
+Escribir "Ingrese los metros:"
+Leer valor
+resultado <- valor*100
+Escribir "Centimetros: ",resultado
+3:
+Escribir "Ingrese las horas:"
+Leer valor
+resultado <- valor*60
+Escribir "Minutos: ",resultado
+4:
+Escribir "Saliendo del programa"
+De Otro Modo:
+Escribir "Opcion incorrecta"
+FinSegun
+Fin
