@@ -1,0 +1,21 @@
+algoritmo CostoEnvio
+Definir real,largo,ancho,alto,volumetrico,peso,costo Como Real
+Escribir "Ingrese el peso real:"
+Leer real
+Escribir "Ingrese el largo:"
+Leer largo
+Escribir "Ingrese el ancho:"
+Leer ancho
+Escribir "Ingrese el alto:"
+Leer alto
+volumetrico <- (largo*ancho*alto)/5000
+Si real>volumetrico Entonces
+peso <- real
+SiNo
+peso <- volumetrico
+FinSi
+costo <- peso*2.50
+Escribir "Peso volumetrico: ",volumetrico
+Escribir "Peso a cobrar: ",peso
+Escribir "Costo total: $",costo
+Fin
