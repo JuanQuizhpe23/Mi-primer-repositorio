@@ -1,0 +1,22 @@
+algoritmo AccesoLaboratorio
+Definir estudiante,carnet,autorizacion Como Caracter
+Escribir "Es estudiante? S/N:"
+Leer estudiante
+Si estudiante="S" O estudiante="s" Entonces
+Escribir "Tiene carnet vigente? S/N:"
+Leer carnet
+Si carnet="S" O carnet="s" Entonces
+Escribir "ACCESO PERMITIDO"
+SiNo
+Escribir "ACCESO DENEGADO"
+FinSi
+SiNo
+Escribir "Tiene autorizacion del docente? S/N
+Leer autorizacion
+Si autorizacion="S" O autorizacion="s" Entonces
+Escribir "INGRESO TEMPORAL"
+SiNo
+Escribir "ACCESO DENEGADO"
+FinSi
+FinSi
+Fin
