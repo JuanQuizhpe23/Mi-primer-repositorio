@@ -1,0 +1,11 @@
+algoritmo SerieArmonica
+Definir n,i Como Entero
+Definir suma Como Real
+suma <- 0
+Escribir "Ingrese el valor de N:"
+Leer n
+Para i <- 1 Hasta n Hacer
+suma <- suma+(1/i)
+FinPara
+Escribir "La suma de la serie es: ",suma
+Fin
