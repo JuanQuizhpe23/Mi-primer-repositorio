@@ -1,0 +1,21 @@
+Proceso PrecioFinal
+    // Definir las variables
+    Definir precio, descuento, precioDesc Como Real
+    Definir iva, total Como Real
+
+    // Ingresar el precio original
+    Escribir "Ingrese el precio del articulo:"
+    Leer precio
+
+    // Calcular el descuento del 20%
+    descuento <- precio * 0.20
+    precioDesc <- precio - descuento
+
+    // Calcular el IVA del 15%
+    iva <- precioDesc * 0.15
+    total <- precioDesc + iva
+
+    // Mostrar los resultados
+    Escribir "Precio con descuento: ", precioDesc
+    Escribir "Precio final: ", total
+FinProceso
