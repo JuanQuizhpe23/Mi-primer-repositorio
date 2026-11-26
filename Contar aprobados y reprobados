@@ -1,0 +1,19 @@
+algoritmo AprobadosReprobados
+Definir n,i,aprobados,reprobados Como Entero
+Definir nota Como Real
+aprobados <- 0
+reprobados <- 0
+Escribir "Ingrese la cantidad de estudiantes:"
+Leer n
+Para i <- 1 Hasta n Hacer
+Escribir "Ingrese la nota:"
+Leer nota
+Si nota>=7 Entonces
+aprobados <- aprobados+1
+SiNo
+reprobados <- reprobados+1
+FinSi
+FinPara
+Escribir "Estudiantes aprobados: ",aprobados
+Escribir "Estudiantes reprobados: ",reprobados
+Fin
