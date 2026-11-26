@@ -1,0 +1,15 @@
+Algoritmo PromedioNotas
+// Definir las variables
+Definir n1, n2, n3, promedio Como Real
+// Ingresar las notas
+Escribir "Ingrese la primera nota:"
+Leer n1
+Escribir "Ingrese la segunda nota:"
+Leer n2
+Escribir "Ingrese la tercera nota:"
+Leer n3
+// Calcular el promedio
+promedio <- (n1 + n2 + n3) / 3
+// Mostrar el resultado
+Escribir "El promedio es: ", promedio
+Fin
