@@ -1,0 +1,34 @@
+Algoritmo VentasTienda
+Definir venta,total,promedio,mayor Como Real
+Definir dias,contador,diaMayor Como Entero
+total <- 0
+dias <- 0
+contador <- 0
+mayor <- 0
+diaMayor <- 0
+Escribir "Ingrese la venta (-1 para terminar):"
+Leer venta
+Mientras venta<>-1 Hacer
+total <- total+venta
+dias <- dias+1
+Si venta>500 Entonces
+contador <- contador+1
+FinSi
+Si dias=1 O venta>mayor Entonces
+mayor <- venta
+diaMayor <- dias
+FinSi
+Escribir "Ingrese otra venta (-1 para terminar):"
+Leer venta
+FinMientras
+Si dias>0 Entonces
+promedio <- total/dias
+Escribir "Total de ventas: $",total
+Escribir "Promedio de ventas: $",promedio
+Escribir "Dias con ventas mayores a $500: ",contador
+Escribir "La mayor venta fue: $",mayor
+Escribir "Ocurrio en el dia: ",diaMayor
+SiNo
+Escribir "No se ingresaron ventas"
+FinSi
+Fin
