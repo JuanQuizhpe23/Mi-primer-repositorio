@@ -1,0 +1,18 @@
+algoritmo ServicioLocal
+Definir opcion Como Entero
+Escribir "SERVICIOS DE LOJA"
+Escribir "1. Transporte urbano"
+Escribir "2. Pago de servicios"
+Escribir "3. Informacion turistica"
+Escribir "4. Salir"
+Escribir "Seleccione una opcion:"
+Leer opcion
+Segun opcion Hacer
+1: Escribir "Servicio de transporte urbano seleccionado"
+2: Escribir "Servicio de pago seleccionado"
+3: Escribir "Servicio de informacion turistica seleccionado"
+4: Escribir "Gracias por utilizar el servicio"
+De Otro Modo:
+Escribir "Opcion no valida"
+FinSegun
+Fin
