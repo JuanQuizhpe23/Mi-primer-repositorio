@@ -1,0 +1,20 @@
+algoritmo Parqueadero
+Definir horas,total Como Real
+Definir estudiante Como Caracter
+Escribir "Es estudiante UTPL? S/N:"
+Leer estudiante
+Escribir "Ingrese las horas de permanencia:"
+Leer horas
+total <- horas*1.00
+Si estudiante="S" O estudiante="s" Entonces
+total <- total*0.50
+Si horas>4 Entonces
+total <- total*1.20
+FinSi
+SiNo
+Si horas>6 Entonces
+total <- total*1.20
+FinSi
+FinSi
+Escribir "Total a pagar: $",total
+Fin
