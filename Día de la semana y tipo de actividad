@@ -1,0 +1,16 @@
+algoritmo DiaActividad
+Definir dia Como Entero
+Escribir "Ingrese un numero del 1 al 7:"
+Leer dia
+Segun dia Hacer
+1: Escribir "Lunes - Dia de clases"
+2: Escribir "Martes - Dia de clases"
+3: Escribir "Miercoles - Dia de clases"
+4: Escribir "Jueves - Dia de clases"
+5: Escribir "Viernes - Dia de clases"
+6: Escribir "Sabado - Fin de semana"
+7: Escribir "Domingo - Fin de semana"
+De Otro Modo:
+Escribir "Numero de dia invalido"
+FinSegun
+Fin
