@@ -1,0 +1,26 @@
+algoritmo BonoEmpleado
+Definir anios Como Entero
+Definir sueldo,bono,total Como Real
+Definir evaluacion Como Caracter
+Escribir "Ingrese los anios de antiguedad:"
+Leer anios
+Escribir "Ingrese el sueldo:"
+Leer sueldo
+Escribir "La evaluacion es excelente? S/N:"
+Leer evaluacion
+Si anios>2 Entonces
+bono <- sueldo*0.10
+Si evaluacion="S" O evaluacion="s" Entonces
+bono <- bono+(sueldo*0.05)
+FinSi
+SiNo
+Si evaluacion="S" O evaluacion="s" Entonces
+bono <- sueldo*0.05
+SiNo
+bono <- 0
+FinSi
+FinSi
+total <- sueldo+bono
+Escribir "Bono recibido: $",bono
+Escribir "Sueldo total: $",total
+Fin
