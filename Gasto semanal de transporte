@@ -1,0 +1,16 @@
+Algoritmo GastoSemanal
+// Definir las variables
+Definir viajes, dias Como Entero
+Definir costo, total Como Rea
+// Ingresar los datos
+Escribir "Ingrese los viajes por dia:"
+Leer viajes
+Escribir "Ingrese el costo del pasaje:"
+Leer costo
+Escribir "Ingrese los dias de la semana:"
+Leer dias
+// Calcular el gasto semanal
+total <- viajes * costo * dia
+// Mostrar el resultado
+Escribir "El gasto semanal es: $", total
+Fin
