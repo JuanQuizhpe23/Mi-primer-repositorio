@@ -1,0 +1,13 @@
+Algoritmo DolaresPesos
+// Definir las variables
+Definir dolares, cambio, pesos Como Real
+// Ingresar los datos
+Escribir "Ingrese la cantidad de dolares:"
+Leer dolares
+Escribir "Ingrese el tipo de cambio:"
+Leer cambio
+// Realizar la conversion
+pesos <- dolares * cambio
+// Mostrar el resultado
+Escribir "La cantidad en pesos mexicanos es: ", pesos
+Fin
