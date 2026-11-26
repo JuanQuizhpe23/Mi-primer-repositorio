@@ -1,0 +1,14 @@
+algoritmo NotaLetra
+Definir letra Como Caracter
+Escribir "Ingrese la calificacion (A, B, C, D, F):"
+Leer letra
+Segun letra Hacer
+"A": Escribir "Nota entre 9 y 10"
+"B": Escribir "Nota entre 8 y 8.9"
+"C": Escribir "Nota entre 7 y 7.9"
+"D": Escribir "Nota entre 6 y 6.9"
+"F": Escribir "Nota entre 0 y 5.9"
+De Otro Modo:
+Escribir "Calificacion no valida"
+FinSegun
+Fin
